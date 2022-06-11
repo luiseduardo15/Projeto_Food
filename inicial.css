@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5DC;
+}
+
+/*.menu{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li{
+    width: 475px;
+    float:left;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}*/
+
+#inicial image{
+    position: absolute;
+    opacity: 75%;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    padding: 10px;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.0);
+    text-align: center; 
+    color: white;
+}
+
+h2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    transition: translate (-50%, -50);
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.0);
+    text-align: center;
+    font-size: 90px ;
+}
+
+.btn-jante{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    /*background: #00ff8B;*/
+    cursor: pointer;
+    /*box-shadow: 0px 10px 40px -12px #00ff8052;*/
+}
+
+#italy{
+    /*display: flex;
+    flex-direction:column;*/
+    text-align: center;
+}
+
+#italy img{
+    padding: 5px;
+    width: 200px;
+    height: 220px;
+    padding-left: 10px;
+    padding-right: 800px;
+}
+
+#italy h3{
+    font-family:'Poppins', sans-serif;
+    padding-left: 400px;
+}
+
+#italy p{
+    padding-top: 5px;
+    padding-left: 400px;
+    font-size: 20px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.btn-italy{
+    font-family:'Poppins', sans-serif;
+    background-color:black;
+    padding: 15px  40px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 100ms linear;
+    position: absolute;
+    left: 57%;
+    transition: translate (-50%, -50);
+}
+
+
+
+
+
